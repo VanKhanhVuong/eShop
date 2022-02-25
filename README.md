@@ -1,2 +1,3 @@
 # eShop
-eShop App version 2.0
+Wellcome eShop App version 2.0
+
