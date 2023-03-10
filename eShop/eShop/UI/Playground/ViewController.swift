@@ -11,9 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        Task {
+            let api = BrandAPIClient()
+            let a = await api.getAllBrand()
+            print(a ?? [])
+        }
     }
-
-
 }
 
